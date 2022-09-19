@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
     <style>
         #blue-text {
             color: blue;
@@ -35,15 +36,6 @@
             color: aqua;
         }
 
-        body {
-            background-color: sandybrown
-        }
-
-        .special {
-            color: cornflowerblue;
-            font-size: 50px;
-        }
-
         .container {
             margin: 20px 50px;
             padding: 100px;
@@ -51,16 +43,60 @@
             background-color: white;
         }
 
+
+        .special {
+            color: cornflowerblue;
+            font-size: 50px;
+        }
+
+        body {
+            background-color: cornflowerblue
+        }
+
         table,
         th,
         td {
             border: 1px solid black;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: #111;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5z8eXDtarrw" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         <h1>Today we will learn about adding style via CSS!</h1>
         <h2>1. This is how we add style with inline</h2>
         <p style="color:seagreen;">This is a seagreen paragraph</p>
