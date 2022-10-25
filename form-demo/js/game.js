@@ -34,3 +34,24 @@ function trivia() {
     }
 
 }
+
+
+// function to truth game
+function truth() {
+    // truth answer
+    let truthAnswer = document.getElementById("truth-answer")
+    // get the checked values from form
+    let washingtonSelected = document.getElementById("washington").checked;
+    let chessSelected = document.getElementById("chess").checked;
+    let raceSelected = document.getElementById("race").checked;
+
+    // decide what to "print"
+    if (washingtonSelected) {
+        truthAnswer.innerHTML = fname + ", you are correct! I am from Chicago.";
+    } else if (chessSelected) {
+        truthAnswer.innerHTML = fname + ", you are wrong. You thought I was only about basketball, eh?";
+    } else if (raceSelected) {
+        truthAnswer.innerHTML = fname + ", you are wrong. My father is of European descent and my mother is hispanic! ";
+    }
+
+}

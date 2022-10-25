@@ -36,6 +36,19 @@
     </form>
     <br>
     <input type="button" value="SUBMIT" onclick="trivia();">
+    <hr>
+    <p>Two truths and a lie. Which one is the lie?</p>
+    <p id="truth-answer"></p>
+    <form action="">
+        <input type="radio" name="truth" id="washington">
+        <label for="washington">I am from Washington</label>
+        <input type="radio" name="truth" id="chess">
+        <label for="chess">I am on the EPS chess team</label>
+        <input type="radio" name="truth" id="race">
+        <label for="race">I am mixed race</label>
+    </form>
+    <br>
+    <input type="button" value="SUBMIT" onclick="truth();">
     <script src="js/game.js"></script>
 </body>
 
