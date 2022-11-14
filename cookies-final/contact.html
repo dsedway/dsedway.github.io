@@ -6,10 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="nav">
 
+        <ul>
+            <li><img src="images/cookies.png" alt="cookies country chicken logo" style="height:70px; width:60px;"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order Online</a></li>
+            <li><a href="cater.html">Catering</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </div>
+    <div class="grid-container">
+        <h1>Send Us a Message!</h1>
+        <p id="greet" style="font-size:x-large">Welcome</p>
+        <form action="" id="name-form">
+            <label for="fname">First Name</label><br>
+            <input type="text" name="greet" id="fname"><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="greet" id="lname"><br>
+            <label for="phone">Phone</label><br>
+            <input type="text" name="greet" id="phone"><br>
+        </form>
+        <br>
+        <input type="button" value="SUBMIT" onclick="greet();">
+    </div>
+    <script src="js/contact.js"></script>
 </body>
 
 </html>
