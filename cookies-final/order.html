@@ -13,14 +13,35 @@
     <div class="nav">
 
         <ul>
-            <li><img src="images/cookies.png" alt="cookies country chicken logo" style="height:70px; width:60px;"></li>
+            <li><img src="images/cookies.png" alt="cookies country chicken logo" style="height:80px; width:70px;"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="order.html">Order Online</a></li>
             <li><a href="cater.html">Catering</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
 
         </ul>
+    </div>
+
+    <div class="grid-container">
+        <div class="block1 grid-item">
+            <h1><a href="menu.html">View Our Menu Before Ordering!</a></h1>
+            <p id="greet" style="font-size:x-large"></p>
+            <form action="" id="name-form">
+                <label for="orderitem1">Order Item 1</label><br>
+                <input type="text" name="order" id="orderitem1"><br>
+                <label for="orderitem2">Order Item 2</label><br>
+                <input type="text" name="order" id="orderitem2"><br>
+                <label for="email">Phone</label><br>
+                <input type="text" name="order" id="phone"><br>
+            </form>
+            <br>
+            <input type="button" value="SUBMIT" onclick="order();">
+
+
+            <script src="js/contact.js"></script>
+        </div>
+
     </div>
 </body>
 

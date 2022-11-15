@@ -29,6 +29,10 @@ ul li a {
 
     text-decoration: none;
 
+    font-family: highgate, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
 
 }
 
@@ -49,13 +53,13 @@ img {
 
 
 body {
-
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 725;
+    font-family: highgate, sans-serif;
+    font-weight: 700;
     font-style: normal;
     background-color: #BBD8DD;
     color: #4D7A94;
 }
+
 
 .grid-container {
     display: grid;
@@ -79,50 +83,64 @@ body {
 
 }
 
-.block1 {
 
+
+.block1 {
     grid-column: 1 / span 4;
     grid-row: 1 / span 1;
-    background-color: #BBD8DD;
-
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 725;
     text-align: center;
+    font-size: 50px;
+    text-shadow: black;
 
 }
 
 .block2 {
-    grid-column: 4 / span 1;
-    grid-row: 2 / span 2;
-    background-color: rgb(147, 165, 77);
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 2;
 
-    color: whitesmoke;
 }
+
 
 .block3 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 2;
-    background-color: rgb(176, 67, 84);
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
 
-    color: whitesmoke;
 }
-
-
 
 .block4 {
-    grid-column: 3 / span 2;
-    grid-row: 4;
-    background-color: rgb(176, 67, 84);
-
-    color: whitesmoke;
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 1;
 }
+
+.block5 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 1;
+    text-align: center;
+    background-color: #FCEBE5;
+}
+
 
 
 h1 {
-    text-align: center;
-    grid-column: 1 / span 4;
+    font-family: highgate, sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 h2 {
+    font-family: highgate, sans-serif;
+    font-weight: 700;
+    font-style: italic;
     color: #F48887;
+}
+
+.footer {
+    font-family: highgate, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color: #F48887;
+    color: white;
+    text-align: center;
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 2;
 }
