@@ -1,0 +1,76 @@
+body {
+    background-color: #BBD8DD;
+}
+
+
+
+ul {
+
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+
+}
+
+ul li {
+
+    float: left;
+
+}
+
+ul li a {
+
+    display: block;
+
+    color: #1D2F5F;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+
+    font-family: highgate, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+}
+
+
+
+ul li a:hover {
+
+    background-color: #F0B418;
+
+}
+
+.nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    font-family: highgate, sans-serif;
+    font-weight: 700;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
