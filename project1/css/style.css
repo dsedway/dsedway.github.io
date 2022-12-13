@@ -1,5 +1,9 @@
 body {
-    background-color: #BBD8DD;
+    background-color: #E3869F;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #2A3F1C;
+    text-align: center;
 }
 
 
@@ -27,7 +31,7 @@ ul li a {
 
     display: block;
 
-    color: #1D2F5F;
+    color: #3E4B58;
 
     text-align: center;
 
@@ -35,9 +39,11 @@ ul li a {
 
     text-decoration: none;
 
-    font-family: highgate, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
     font-style: normal;
+    margin: 10px;
+    border-radius: 4%;
 
 
 }
@@ -46,31 +52,76 @@ ul li a {
 
 ul li a:hover {
 
-    background-color: #F0B418;
+    background-color: #838C7B;
 
 }
 
 .nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100px;
+    font-size: 110px;
 }
+
+h1 {
+    font-size: 70px;
+    background-color: antiquewhite;
+    margin: 40px 240px;
+    border-radius: 40%;
+}
+
+p {
+    font-size: 50px;
+}
+
+
 
 img {
-    width: 400px;
+    width: 600px;
     height: auto;
+    float: center;
+    border-radius: 20%;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    font-family: highgate, sans-serif;
-    font-weight: 700;
+.tooltip p {
+    display: none;
+    background: #E3869F;
+    padding: 10px;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+.tooltip:hover p {
+    display: block;
 }
 
-.container {
-    padding: 2px 16px;
+.hover-div {
+    background: #E3869F;
+    padding: 10px;
+
+}
+
+.hover-div:hover {
+    background: #838C7B;
+    border-radius: 10%;
+}
+
+.block1 {
+    float: left;
+}
+
+.block2 {
+    float: right;
+}
+
+.block3 {
+    float: left;
+}
+
+.block4 {
+    float: right;
+}
+
+.block5 {
+    float: left;
+}
+
+.block6 {
+    float: right;
 }
