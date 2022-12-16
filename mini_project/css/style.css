@@ -1,0 +1,27 @@
+.fontitalics {
+    font-family: embury-text, serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fontbold {
+    font-family: embury-text, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: embury-text, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fontnormal {
+    font-family: embury-text, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
