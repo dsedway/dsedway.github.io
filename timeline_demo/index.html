@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedway Scroll Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Scroll Demo</h1>
+    </div>
+    <div class="progress"></div>
+
+    <div class="cube-wrap">
+        <div class="cube">
+            <div class="side top"></div>
+            <div class="side bottom"></div>
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+        </div>
+    </div>
+    <div class="demo">
+        <h2>JS Foundation</h2>
+        <p>First, we need to implement a CSS property that indicates the percentage of the page that has been scrolled
+            We use this code in our JS:
+        <p style="font-weight: 600;">window.addEventListener('scroll', () => {
+            document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight -
+            window.innerHeight));
+            }, false);</p>
+        </p>
+        <h2>Animation Setup</h2>
+        <p>Here is the setup for the animation</p>
+        <p style="font-weight: 600;">svg {
+            display: inline-block;
+            animation: rotate 1s linear infinite;
+            }</p>
+        <p style="font-weight: 600;">
+            @keyframes rotate {
+            to {
+            transform: rotate(360deg);
+            }
+            }
+        </p>
+        <h2>Pausing the Animation</h2>
+        <p>This code determines the duration of the animation relative to the distance scrolled on the page. </p>
+        <p style="font-weight: 600;">svg {
+            position: fixed; /* make sure it stays put so we can see it! */
+
+            animation: rotate 1s linear infinite;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            }</p>
+        <h2>Extra Animation Code</h2>
+        <p>This helps to ensure the animation works</p>
+        <p style="font-weight: 600;">animation-iteration-count: 1;
+            animation-fill-mode: both;</p>
+        <p>This is the basics of the code required for an animation, but certain aspects of the animation and the images
+            can be adjusted</p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
