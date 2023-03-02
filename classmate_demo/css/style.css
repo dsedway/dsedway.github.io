@@ -1,19 +1,93 @@
+body {
+    background-color: black;
+    color: black;
+    font-family: "arbotek", sans-serif;
+    font-weight: 300;
+    
+}
+
+.container {
+    background-color: #4A86BA;
+    border-radius: 3%;
+    margin: 15px;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
 h2 {
+    text-decoration: underline;
+}
+.block1 {
     position: relative;
-    color: hsl(0, 0%, 68%);
-    font-family: "ofelia-text", sans-serif;
+    color: black;
     overflow: hidden;
     border-right: 2px solid hsl(0, 0%, 80%);
     white-space: nowrap;
-    animation: typewriter 4s steps(44) 1s 1 normal both, blinkTextCursor 500ms infinite;
+    animation: typewriter 5s steps(50) 2s 1 normal both, blinkTextCursor 500ms infinite;
     }
 
+    img {
+    border-radius: 10%;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.block2{
+    position: relative;
+    color: black;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 5s steps(50) 7s 1 normal both, blinkTextCursor 500ms infinite;
+    }
+
+.block3{
+    position: relative;
+    color: black;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 5s steps(50) 12s 1 normal both, blinkTextCursor 500ms infinite;
+}
+
+.block4 {
+    position: relative;
+    color: black;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 5s steps(50) 17s 1 normal both, blinkTextCursor 500ms infinite;
+}
+
+.block5 {
+    position: relative;
+    color: black;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 5s steps(50) 22s 1 normal both, blinkTextCursor 500ms infinite;
+}
+
+.block6 {
+    position: relative;
+    color: black;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 5s steps(50) 27s 1 normal both, blinkTextCursor 500ms infinite;
+}
     @keyframes typewriter {
         from {
         width: 0;
         }
         to {
-        width: 1000px;
+        width: 100%;
         } }
         
         
@@ -24,3 +98,12 @@ h2 {
         to {
         border-right-color: transparent;
         } }
+
+footer {
+ color: white;
+ text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
