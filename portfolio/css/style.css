@@ -2,7 +2,23 @@ body {
     background-color: #9B6CBD;
     font-family: "arbotek", sans-serif;
     font-weight: 300;
+    margin: 0px;
+    margin-top: 0;
 }
+
+.container {
+    padding: 5px;
+    margin: 5px;
+    border: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: none;
+    margin: none;
+} 
 
 .nav {
     text-decoration: none;
@@ -28,15 +44,34 @@ h1 {
     font-family: "arbotek", sans-serif;
     font-weight: 700;
     font-size: 140px;
+    margin: 0;
+
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 75px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.center {
+    text-align: center;
+    list-style-type: none;
 }
 
 a {
     color: black;
+    text-decoration: none;
 }
 
 p {
     font-size: 30px;
-    padding: 20px;
+    padding: 5px;
+    
 }
 
 img {
