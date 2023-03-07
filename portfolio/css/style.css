@@ -2,8 +2,10 @@ body {
     background-color: #BBD8DD;
     font-family: "arbotek", sans-serif;
     font-weight: 300;
-    margin: 0px;
-    margin-top: 0;
+    display: block;
+   
+    padding: none;
+    margin: auto;
     color: black;
 }
 
@@ -11,6 +13,8 @@ body {
     padding: 5px;
     margin: 5px;
     border: 0;
+
+
 }
 
 .header {
@@ -19,12 +23,26 @@ body {
     width: 100%;
     padding: none;
     margin: none;
+    margin-top: none;
 } 
+
+
 
 .nav {
     text-decoration: none;
     font-size: 50px;
-
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #BBD8DD;
+    opacity: 80%;
+}
+.nav-inner {
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
 }
 
 ul {
@@ -39,6 +57,13 @@ ul li {
 li {
     padding: 0 13px;
     text-align: center;
+}
+
+.nav a:hover {
+    background-color: #172E56;
+    color: #FCEBE5;
+    border-radius: 20%;
+    
 }
 
 h1 {
@@ -59,6 +84,14 @@ h3 {
     font-size: 50px;
 }
 
+.googlemap {
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
+
+
 .center {
     text-align: center;
     list-style-type: none;
@@ -75,13 +108,20 @@ p {
     
 }
 
+p a:hover {
+    font-weight: 550;
+}
+
 img {
     width: 100%;
+    padding: 0px;
+    margin-top: 0;
 }
 
 .img1 {
     float: left;
     width: 50%;
+    
 }
 
 .img2 {
@@ -89,14 +129,18 @@ img {
     width: 50%;
 }
 
+
+
 footer {
     text-align: center;
-    padding: 3px;
+    margin: auto;
     background-color: black;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
+    
   }
 
 footer a {
