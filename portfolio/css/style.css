@@ -286,6 +286,10 @@ footer ul {
     display: block;
 }
 
+.footer li {
+    margin-right: 0px;
+}
+
 .about {
     padding-left: 20px;
     padding-right: 20px;
