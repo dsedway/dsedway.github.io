@@ -330,7 +330,7 @@ footer ul {
     position: fixed;
     bottom: 20px;
     right: 30px;
-    z-index: -100;
+    z-index: 0;
     font-size: 18px;
     font-family: "arbotek", sans-serif;
     font-weight: 550;
