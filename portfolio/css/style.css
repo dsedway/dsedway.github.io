@@ -316,6 +316,7 @@ footer ul {
     margin-top: -10px;
 }
 
+
 .contactimage {
     width: 280px;
     height: auto;
@@ -346,3 +347,43 @@ footer ul {
   #myBtn:hover {
     background-color: gray;
   }
+
+  @media (min-width:621px) and (max-width:1012px) {
+
+
+
+    .about,
+    .active,
+    .center,
+    .contactimage,
+    .container,
+    .dot,
+    .dot:hover,
+    .fade,
+    .footer,
+    .googlemap,
+    .header,
+    .img1 {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width:1012px) {
+
+    .about,
+    .active,
+    .center,
+    .contactimage,
+    .container,
+    .dot,
+    .dot:hover,
+    .fade,
+    .footer,
+    .googlemap,
+    .header,
+    .img1 {
+        width: 100%;
+    }
+}
