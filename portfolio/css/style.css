@@ -178,9 +178,15 @@ h3 {
 
 .googlemap {
     display: block;
+    padding-bottom: 10px;
 }
 
 .googlemap h2 {
+    text-align: center;
+}
+
+.googlemap p {
+    text-decoration: none;
     text-align: center;
 }
 
